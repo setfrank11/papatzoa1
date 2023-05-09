@@ -5,6 +5,7 @@
     background-color: white;
 }
 
+
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
@@ -53,7 +54,7 @@ h1{
 
 p{
     margin: 1rem auto;
-    font-size: 1.5;
+    font-size: 2.5
 }
     /*Estilos generales*/
 *{
@@ -66,6 +67,10 @@ body{
 
 .section-padding{
     padding: 100px 0;
+}
+
+.card-img-filter{
+    filter: brightness(.7);
 }
 
 .carousel-item{
@@ -102,19 +107,30 @@ body{
         }
     }
 
+
+/*Quienes somos*/
+.about-img{
+    margin: 20px;
+    border: 1px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+
 /*Card*/
+
 
 .img-container {
     position: relative;
 }
 
 .image {
-    transition: .5s ease;
+    transition: 1s ease;
     backface-visibility: hidden;
 }
 
 .overplay {
-    transition:  .5s ease;
+    transition: .5s ease;
     opacity: 0;
     position: absolute;
     top: 50%;
